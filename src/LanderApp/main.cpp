@@ -1,10 +1,15 @@
 
 #include "Application.h"
+
 #include <iostream>
+
+#include "LanderApp.h"
 
 int main()
 {
-	Engine::Application* app = new Engine::Application();
+	LanderApp* app = new LanderApp();
+
+	app->Run();
 
 	delete app;
 
