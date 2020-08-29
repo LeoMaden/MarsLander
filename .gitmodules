@@ -1,0 +1,3 @@
+[submodule "Dependencies/Graphics-Engine"]
+	path = Dependencies/Graphics-Engine
+	url = https://github.com/LeoMaden/Graphics-Engine.git
