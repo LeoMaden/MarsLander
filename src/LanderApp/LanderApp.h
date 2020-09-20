@@ -38,9 +38,9 @@ public:
 	{
 		Simulation.Update(timestep);
 
-		LOG_TRACE("x = {:.2f}, y = {:.2f}", Simulation.Lander.Position.x, Simulation.Lander.Position.y);
+		//LOG_TRACE("x = {:.2f}, y = {:.2f}", Simulation.Lander.Position.x, Simulation.Lander.Position.y);
 
-		TestFile << Simulation.Lander.Position.x << " " << Simulation.Lander.Position.y << "\n";
+		//TestFile << Simulation.Lander.Position.x << " " << Simulation.Lander.Position.y << "\n";
 	}
 
 	virtual ~LanderApp()
